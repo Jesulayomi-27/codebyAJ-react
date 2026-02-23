@@ -46,7 +46,7 @@ function Skills() {
 
         {/* Additional Skills */}
         <div className="flex-1">
-          <h3 className="text-xl font-semibold mb-6">Additional Skills</h3>
+          <h3 className="text-xl font-semibold mb-6 mt-9 lg:mt-0">Additional Skills</h3>
           <div className="space-y-6">
             {additionalSkills.map((skill) => (
               <div key={skill.name}>
@@ -69,7 +69,7 @@ function Skills() {
       {/* Technologies & Tools */}
       <div className='place-items-center'>
         <h3 className="text-xl font-semibold mb-4">Technologies & Tools</h3>
-        <div className="flex flex-wrap gap-3">
+        <div className="flex flex-wrap gap-3 px-5 ">
           {techTools.map((tool) => (
             <span 
               key={tool}

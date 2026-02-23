@@ -31,7 +31,7 @@ function Hero() {
         </p>
         
         {/* Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
+        <div className="flex sm:flex-row gap-4 justify-center items-center mb-16">
           <ScrollLink 
             to="projects"
             smooth={true}
