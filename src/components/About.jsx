@@ -40,7 +40,7 @@ function About() {
                 <h3 className="text-lg font-semibold text-gray-800">Experience</h3>
               </div>
               <p className="text-gray-600 ml-8">
-                <span className="font-bold text-[#463acb]">4+ years</span> creating modern web applications for startups and established companies
+                <span className="font-bold text-[#463acb]">3+ years</span> creating modern web applications for startups companies
               </p>
             </div>
             
