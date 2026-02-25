@@ -18,7 +18,7 @@ function Projects() {
       name: "Recipe App",
       image: laptop2,
       note: "A full-stack recipe management application, featuring a modern web interface for discovering, saving, and organizing recipes.",
-      liveUrl: "recipe-app-rust-one.vercel.app",
+      liveUrl: "https://recipe-app-rust-one.vercel.app/",
       codeUrl: "https://github.com/Jesulayomi-27/Recipe-App"
     },
     // {
