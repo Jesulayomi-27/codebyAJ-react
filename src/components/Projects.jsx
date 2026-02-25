@@ -13,14 +13,14 @@ function Projects() {
       liveUrl: "https://ayo-akin.vercel.app", // Unique live demo link
       codeUrl: "https://github.com/Jesulayomi-27/ayo-akin" // Unique code link
     },
-    // {
-    //   id: 2,
-    //   name: "TravelVista App",
-    //   image: laptop2,
-    //   note: "A fully responsive admin dashboard with dark/light mode, data visualization and advanced UI components",
-    //   liveUrl: "https://travelvista-demo.example.com",
-    //   codeUrl: "https://github.com/yourusername/travelvista"
-    // },
+    {
+      id: 2,
+      name: "Recipe App",
+      image: laptop2,
+      note: "A full-stack recipe management application, featuring a modern web interface for discovering, saving, and organizing recipes.",
+      liveUrl: "recipe-app-rust-one.vercel.app",
+      codeUrl: "https://github.com/Jesulayomi-27/Recipe-App"
+    },
     // {
     //   id: 3,
     //   name: "PortfolioX Builder",
