@@ -68,7 +68,7 @@ function Skills() {
 
       {/* Technologies & Tools */}
       <div className='place-items-center'>
-        <h3 className="text-xl font-semibold mb-4">Technologies & Tools</h3>
+        <h3 className="px-4 text-xl font-semibold mb-4">Technologies & Tools</h3>
         <div className="flex flex-wrap gap-3 px-5 ">
           {techTools.map((tool) => (
             <span 
