@@ -4,14 +4,14 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-white py-12">
+    <footer className="bg-[#463ACB] text-white py-12">
       <div className="container mx-auto px-5">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           
           {/* Logo */}
           <div>
             <h2 className="text-2xl font-bold">
-              code<span className="text-[#463acb]">byAJ</span>
+              code<span>byAJ</span>
             </h2>
           </div>
 
@@ -23,7 +23,7 @@ const Footer = () => {
               "
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-black transition-colors"
+              className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-black transition-colors"
               aria-label="X (Twitter)"
             >
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -36,7 +36,7 @@ const Footer = () => {
               href="https://www.instagram.com/jesulayomi66?igsh=MXBkOTR0MDVhMmx5Yg%3D%3D&utm_source=qr"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-pink-600 transition-colors"
+              className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-pink-600 transition-colors"
               aria-label="Instagram"
             >
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -49,7 +49,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/jesulayomi-akinola-b2856919b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
+              className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
               aria-label="LinkedIn"
             >
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -59,7 +59,7 @@ const Footer = () => {
           </div>
 
           {/* Copyright */}
-          <p className="text-gray-400 text-sm">
+          <p className="text-white text-sm">
             © {currentYear} codebyAJ. All rights reserved.
           </p>
         </div>

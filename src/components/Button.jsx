@@ -15,7 +15,7 @@ const Button = ({
 }) => {
   return (
     <button
-      className={`px-7 py-3 mx-3 my-10 text-sm rounded-xl transition-all duration-300 ${className}`}
+      className={`px-7 py-3 mx-3 text-sm rounded-full transition-all duration-300 ${className}`}
       style={{ 
         backgroundColor: bgColor,
         color: textColor,
