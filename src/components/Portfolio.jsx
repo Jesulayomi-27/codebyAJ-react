@@ -23,6 +23,16 @@ const projects = [
     liveUrl: "https://recipe-app-rust-one.vercel.app/",
     codeUrl: "https://github.com/Jesulayomi-27/Recipe-App"
   },
+  {
+    title: "Insight Pulse Nigeria",
+    tag: "RECIPE APP",
+    description:
+      "A full-stack recipe management application, featuring a modern web interface for discovering, saving, and organizing recipes.",
+    image:
+      project2,
+    liveUrl: "https://insight-pulse-nigeria.vercel.app/",
+    codeUrl: "https://github.com/Jesulayomi-27/insight-pulse-nigeria"
+  },
 ];
 
 export default function FeaturedProjects() {
