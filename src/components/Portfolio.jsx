@@ -1,6 +1,7 @@
 import React from "react";
 import project from "../assets/ayoakin.png";
 import project2 from "../assets/foodie.png";
+import project3 from "../assets/insightPulse.png"
 import { Link } from "react-scroll";
 
 const projects = [
@@ -25,11 +26,11 @@ const projects = [
   },
   {
     title: "Insight Pulse Nigeria",
-    tag: "RECIPE APP",
-    description:
-      "A full-stack recipe management application, featuring a modern web interface for discovering, saving, and organizing recipes.",
+    tag: "WEBSITE",
+    // description:
+    //   "A full-stack recipe management application, featuring a modern web interface for discovering, saving, and organizing recipes.",
     image:
-      project2,
+      project3,
     liveUrl: "https://insight-pulse-nigeria.vercel.app/",
     codeUrl: "https://github.com/Jesulayomi-27/insight-pulse-nigeria"
   },
